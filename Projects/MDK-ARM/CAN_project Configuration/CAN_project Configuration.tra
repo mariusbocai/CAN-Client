@@ -1,0 +1,42 @@
+*** Creating Trace Output File 'CAN_project Configuration\CAN_project Configuration.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"can_project configuration\startup_stm32f407xx.o"'
+### List of Objects: adding '"can_project configuration\main.o"'
+### List of Objects: adding '"can_project configuration\stm32f4xx_hal_msp.o"'
+### List of Objects: adding '"can_project configuration\stm32f4xx_it.o"'
+### List of Objects: adding '"can_project configuration\state_handler.o"'
+### List of Objects: adding '"can_project configuration\serial.o"'
+### List of Objects: adding '"can_project configuration\commands.o"'
+### List of Objects: adding '"can_project configuration\system_stm32f4xx.o"'
+### List of Objects: adding '"can_project configuration\stm32f4xx_hal.o"'
+### List of Objects: adding '"can_project configuration\stm32f4xx_hal_can.o"'
+### List of Objects: adding '"can_project configuration\stm32f4xx_hal_cortex.o"'
+### List of Objects: adding '"can_project configuration\stm32f4xx_hal_dma.o"'
+### List of Objects: adding '"can_project configuration\stm32f4xx_hal_dma_ex.o"'
+### List of Objects: adding '"can_project configuration\stm32f4xx_hal_flash.o"'
+### List of Objects: adding '"can_project configuration\stm32f4xx_hal_flash_ex.o"'
+### List of Objects: adding '"can_project configuration\stm32f4xx_hal_flash_ramfunc.o"'
+### List of Objects: adding '"can_project configuration\stm32f4xx_hal_gpio.o"'
+### List of Objects: adding '"can_project configuration\stm32f4xx_hal_pwr.o"'
+### List of Objects: adding '"can_project configuration\stm32f4xx_hal_pwr_ex.o"'
+### List of Objects: adding '"can_project configuration\stm32f4xx_hal_rcc.o"'
+### List of Objects: adding '"can_project configuration\stm32f4xx_hal_rcc_ex.o"'
+### List of Objects: adding '"can_project configuration\stm32f4xx_hal_tim.o"'
+### List of Objects: adding '"can_project configuration\stm32f4xx_hal_tim_ex.o"'
+### List of Objects: adding '"can_project configuration\stm32f4xx_hal_uart.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp "can_project configuration\startup_stm32f407xx.o" "can_project configuration\main.o" "can_project configuration\stm32f4xx_hal_msp.o" "can_project configuration\stm32f4xx_it.o" "can_project configuration\state_handler.o" "can_project configuration\serial.o" "can_project configuration\commands.o" "can_project configuration\system_stm32f4xx.o" "can_project configuration\stm32f4xx_hal.o" "can_project configuration\stm32f4xx_hal_can.o" "can_project configuration\stm32f4xx_hal_cortex.o" "can_project configuration\stm32f4xx_hal_dma.o" "can_project configuration\stm32f4xx_hal_dma_ex.o" "can_project configuration\stm32f4xx_hal_flash.o" "can_project configuration\stm32f4xx_hal_flash_ex.o" "can_project configuration\stm32f4xx_hal_flash_ramfunc.o" "can_project configuration\stm32f4xx_hal_gpio.o" "can_project configuration\stm32f4xx_hal_pwr.o" "can_project configuration\stm32f4xx_hal_pwr_ex.o" "can_project configuration\stm32f4xx_hal_rcc.o" "can_project configuration\stm32f4xx_hal_rcc_ex.o" "can_project configuration\stm32f4xx_hal_tim.o" "can_project configuration\stm32f4xx_hal_tim_ex.o" "can_project configuration\stm32f4xx_hal_uart.o" --library_type=microlib --strict --scatter "CAN_project Configuration\CAN_project Configuration.sct" 
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "CAN_project Configuration.map" -o "CAN_project Configuration\CAN_project Configuration.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'CAN_project Configuration\CAN_project Configuration.axf'
+### ADS-LD Command File: 'CAN_project Configuration\CAN_project Configuration.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'CAN_project Configuration\CAN_project Configuration.lnp', Handle=0x000001F8
+### Writing '.lnp' file
+### ADS-LD Command file 'CAN_project Configuration\CAN_project Configuration.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
